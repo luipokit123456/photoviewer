@@ -282,7 +282,8 @@
         [fullView setFrame:CGRectMake(0, 0, viewWidth, viewHeight)];
         [imageView setFrame:CGRectMake(0, 0, viewWidth, viewHeight)];
         fullView.contentSize = imageView.frame.size;
-        [closeBtn setFrame:CGRectMake(0, viewHeight - 50, 50, 50)];
+        // [closeBtn setFrame:CGRectMake(0, viewHeight - 50, 50, 50)];
+        [closeBtn setFrame:CGRectMake(viewWidth - 50, 50, 50, 50)];
     }
 }
 
